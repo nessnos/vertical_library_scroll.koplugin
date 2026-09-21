@@ -27,10 +27,8 @@ browser looks and behaves exactly as before until you do.
 
 ## Installation
 
-1. Download this repository (or just the `vertical_library_scroll.koplugin/`
-   folder inside it).
-2. Copy the whole `vertical_library_scroll.koplugin/` **folder** (not just
-   the files inside it) into KOReader's `plugins/` directory:
+1. Download this repository.
+2. Copy the whole `vertical_library_scroll.koplugin/` **folder** into KOReader's `plugins/` directory:
 
    ```
    koreader/plugins/vertical_library_scroll.koplugin/
@@ -55,19 +53,13 @@ This plugin was built and is regularly checked against
 doesn't require it:
 
 - It only patches KOReader's *core* file browser classes (`FileChooser`,
-  `Menu`, `FileManager`) — the same screen SimpleUI's own
+  `Menu`, `FileManager`), the same screen SimpleUI's own
   folder-browsing entry points lead to, since SimpleUI patches those
   same core classes rather than replacing them.
 - Every hook is installed as a **wrap**: it saves whatever function was
   already there (stock KOReader's, SimpleUI's, or CoverBrowser's) and
   calls through to it. Load order between this plugin and SimpleUI
   doesn't matter.
-- SimpleUI replaces KOReader's own swipe-handling touch zone with one
-  that intentionally doesn't forward vertical swipes to the file
-  browser (so they can open its menu instead). This plugin registers
-  its own touch zone that explicitly takes priority over that zone
-  by ID, so vertical swiping works correctly whether or not SimpleUI is
-  installed, regardless of which one loads first.
 - The settings entry is added through KOReader's official
   `FileManagerMenu:registerToMainMenu()` / `addToMainMenu()` extension
   point — the same one the stock CoverBrowser plugin uses — so it
@@ -127,9 +119,3 @@ patches to the same core classes.
 ## License
 
 [MIT](LICENSE)
-
-## Acknowledgments
-
-Inspired by the vertically-paged, scrollbar-driven library browsing on
-Kindle's stock OS. Built against KOReader's and SimpleUI's public
-source.
