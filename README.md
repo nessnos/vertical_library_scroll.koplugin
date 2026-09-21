@@ -1,4 +1,4 @@
-# Vertical Library Scroll — a KOReader plugin
+# Vertical Library Scroll: a KOReader plugin
 
 Turn KOReader's file browser ("the library") into a Kindle-style,
 vertically-paged screen instead of the stock horizontal swipe/arrows one.
