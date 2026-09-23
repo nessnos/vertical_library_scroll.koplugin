@@ -15,7 +15,9 @@ Off by default. It's a toggle, not a takeover: turn it on from **File
 browser → Settings → "Vertical scrolling library"**, and your file
 browser looks and behaves exactly as before until you do.
 
-<img width="1272" height="1696" alt="FileManager_2026-09-23_192301" src="https://github.com/user-attachments/assets/ab783e8b-d7dc-4190-981b-8e4f7f63e0a7" />
+![Vertical scrolling library screenshot](imgs/screenshot1.png)
+
+Note: in the screenshot the up/down arrow buttons show up as little stars, that's just the icon pack I have installed, not how they normally look.
 
 ## Requirements
 
