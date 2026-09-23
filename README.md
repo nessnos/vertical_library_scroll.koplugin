@@ -9,14 +9,13 @@ vertically-paged screen instead of the stock horizontal swipe/arrows one.
   position in the library; tap or drag it to jump straight to a page.
 - An **up-arrow** above the scrollbar and a **down-arrow** below it do
   the same thing as swiping up/down.
-- The book grid/list is narrowed to make real room for the scrollbar —
-  it doesn't just float on top of your covers.
+- The book grid/list is narrowed to make real room for the scrollbar.
 
 Off by default. It's a toggle, not a takeover: turn it on from **File
 browser → Settings → "Vertical scrolling library"**, and your file
 browser looks and behaves exactly as before until you do.
 
-<!-- Add a screenshot or GIF here once you've got one from a device. -->
+<img width="1272" height="1696" alt="FileManager_2026-09-23_192301" src="https://github.com/user-attachments/assets/ab783e8b-d7dc-4190-981b-8e4f7f63e0a7" />
 
 ## Requirements
 
