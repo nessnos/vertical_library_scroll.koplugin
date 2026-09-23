@@ -35,8 +35,7 @@ browser looks and behaves exactly as before until you do.
    └── main.lua
    ```
 
-3. Restart KOReader (a full restart — plugins are loaded once at
-   startup, not picked up by just closing a book). It's enabled by
+3. Restart KOReader (a full restart). It's enabled by
    default like any new plugin; you can confirm KOReader found it under
    **Tools → More tools → Plugin management** ("Vertical scrolling
    library").
